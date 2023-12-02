@@ -1,0 +1,72 @@
+.text {
+min-width: 0px;
+font-size: 0px;
+background-color: coral;
+}
+
+.show:hover+.text {
+width: 300px;
+font-size: 14px;
+}
+
+.item {
+min-height: 50px;
+width: 200px;
+color: rgb(187, 187, 187);
+background-color: rgb(136, 136, 136);
+border: 0px;
+}
+
+.item:hover {
+width: 250px;
+background-color: rgb(190, 219, 219);
+color: rgb(206, 255, 255);
+}
+
+.form {
+width: 400px;
+border: 2px solid rgb(150, 150, 150);
+border-radius: 10px;
+padding: 30px;
+background-color: rgb(221, 221, 221);
+transform: translateX(500px);
+}
+
+.sign {
+border: 0px;
+border-radius: 20px;
+width: 100px;
+height: 30px;
+background-color: rgb(117, 167, 167);
+color: rgb(255, 255, 255);
+transform: translateY(20px);
+}
+
+.login:focus {
+    background-color: #a2f0e3;
+}
+
+.pass:focus {
+background-color:#a2f0e3;
+}
+
+.sign:focus {
+background-color: blueviolet;
+}
+
+.login {
+transform: translateX(20px);
+font-size: 15px;
+}
+
+.pass {
+transform: translateX(14px);
+font-size: 15px;
+}
+
+p {
+text-align: center;
+color: darkcyan;
+font-size: 25px;
+}
+
